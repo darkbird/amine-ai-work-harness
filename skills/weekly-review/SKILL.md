@@ -1,6 +1,6 @@
 ---
 name: weekly-review
-description: Produce a compact evidence-based weekly operating review across active work: progress, blockers, open loops, project drift, proof-of-work, missing evidence, and next-week focus.
+description: "Produce a compact evidence-based weekly operating review across active work: progress, blockers, open loops, project drift, proof-of-work, missing evidence, and next-week focus."
 ---
 
 # Weekly Review
