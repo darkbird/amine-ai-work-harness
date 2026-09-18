@@ -1,6 +1,0 @@
-{
-  "name": "amine-ai-work-harness",
-  "displayName": "Amine AI Work Harness",
-  "version": "0.2.3",
-  "description": "Compatibility manifest for the current OpenWork desktop GitHub importer. The canonical OpenWork Agent Plugin manifest remains /plugin.json."
-}
