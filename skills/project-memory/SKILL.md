@@ -13,11 +13,15 @@ Chat history is working memory. Project files are durable memory.
 
 ## Use when
 
-- starting or resuming an existing workspace
+- starting or resuming an existing initialized workspace
 - the user asks where the project stands
 - context is fragmented or contradictory
 - a milestone or durable decision must be persisted
 - another skill needs reliable current project state
+
+If durable context is absent or only placeholder-level, use `workspace-bootstrap` first.
+
+If durable context exists but may be stale or contradictory, use `context-health` before rewriting it.
 
 ## Durable context
 

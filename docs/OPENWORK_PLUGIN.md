@@ -15,6 +15,16 @@ The root `plugin.json` declares the Agent Plugin schema:
 }
 ```
 
-There is deliberately no `.claude-plugin/` directory in this version.
+There is deliberately no `.claude-plugin/` directory.
+
+OpenWork discovers immediate skill entrypoints under:
+
+```text
+skills/<skill-name>/SKILL.md
+```
+
+V0.3 contains 11 skills, including `workspace-bootstrap` and `context-health`.
 
 The package is OpenWork-first while remaining based on the cross-agent Agent Plugin standard that OpenWork supports.
+
+Use the OpenWork Source / Plugin Directory organization flow for installation and updates.

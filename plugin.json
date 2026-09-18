@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "amine-ai-work-harness",
-  "version": "0.2.4",
-  "description": "OpenWork-first skill harness for durable project memory, technical grounding, audits, proof-of-work capture, commercial evidence, and cross-project professional memory.",
+  "version": "0.3.0",
+  "description": "OpenWork-first skill harness for workspace bootstrap, durable project memory, context health, technical grounding, audits, proof-of-work capture, commercial evidence, and cross-project professional memory.",
   "author": {
     "name": "Amine"
   },
@@ -11,6 +11,8 @@
     "opencode",
     "skills",
     "project-memory",
+    "workspace-bootstrap",
+    "context-health",
     "context",
     "context7",
     "proof-of-work",
