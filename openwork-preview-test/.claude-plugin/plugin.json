@@ -1,0 +1,6 @@
+{
+  "name": "openwork-preview-test",
+  "displayName": "OpenWork Preview Test",
+  "version": "0.0.1",
+  "description": "Minimal compatibility plugin used to isolate OpenWork GitHub preview failures."
+}
