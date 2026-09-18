@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "amine-ai-work-harness",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "OpenWork-first skill harness for durable project memory, technical grounding, audits, proof-of-work capture, commercial evidence, and cross-project professional memory.",
   "author": {
     "name": "Amine"
