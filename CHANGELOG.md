@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0
+
+- Added `workspace-bootstrap` for evidence-based, idempotent initialization of `_project-context/`.
+- Added `context-health` for read-only detection of missing, stale, conflicting, drifted, unverified, orphaned, or secret-risk durable context.
+- Added a Context Health automation prompt.
+- Updated `project-memory` to hand uninitialized workspaces to `workspace-bootstrap` and stale-memory checks to `context-health`.
+- Added bounded evidence-reading and explicit no-assumption rules for bootstrap.
+- Documented the V0.3 continuity lifecycle.
+- Kept application source, deployment, dependency, and secret handling outside bootstrap/context repair by default.
+
 ## 0.2.4
 
 - Removed the temporary `.claude-plugin/plugin.json` compatibility shim.
